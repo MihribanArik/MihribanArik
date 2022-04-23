@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.container{
+    background:url(resim/ana_1.jpg);
+    height: 100vh;
+    background-size: 100% 100%;
+}
+
+.container.navbar{
+width: 100%;
+height:80px;
+background:rgb(234, 236, 239);
+}
+
+.container.center{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    font-family:sans serif;
+}
+
+.container2{
+    background-color: bisque;
+}
+
+.navbar ul{
+ float: right;
+ margin: right 20px;
+}
+
+.navbar ul li{
+    list-style:none ;
+    display: inline-block;
+    margin: 08px;
+    line-height:80px ;
+}
+
+.navbar ul li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 6px 13px;
+    font-family: Roboto;
+}
+
+.navbar ul li a.hover{
+    background:#ff5500;
+    border-radius: 2px;
+}
+    
+.center h1{
+    color: rgb(255, 255, 255);
+    font-size:140px;
+}
+    
+.center h2{
+    color: white;
+    font: size 50px;
+}
+
+.center
+{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+nav{
+    display: flex;
+    padding: 1% 0%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 200px;
+}
+
+
+
+
+.yazi{
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+.yazi p{
+    padding: 40px 0 25px;
+}
+
+.yazi img{
+    width: 100%;
+}
+
+.yapi{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;  
+}
+
+.yazi2{
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+.yazi2 p{
+    padding: 0px 0 25px;
+}
+
+.yazi2 img{
+    width: 100%;
+}
+
+
+.cta{
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(resim/hakkında.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 400px 0;
+    
+}
+.cta h1{
+    color: #fff;
+    margin-bottom: 40px; 
+    padding: 0; 
+}
+.cta p{
+    color: #fff;
+    margin-bottom: 40px;
+    padding: 40px 0 25px;
+    flex-basis: 48%;
+    padding-left: 180px;
+    padding-right: 180px; 
+    font-size: large;
+}
+
+@media(max-width:700px){
+    .cta h1{
+        font-size: 24px;
+    }
+}
+
+.tarihi{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.tarihic{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.tarihic img{
+    width: 100%;
+}
+
+.lezlet{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+p{
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+  
+.yemek{
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    box-sizing: border-box;
+    transition: .5s;
+}
+
+.yemek img{
+    width: 100%;
+}
+
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+
+@media (max-width:700px){
+    .yapi{
+        flex-direction: column;
+    }
+}
+
+
+.iletisim{
+    width: 150%;
+}
+.iletisim2{
+    flex-basis: 60%;
+}
+   
+.iletisim2 input, .iletisim2 textarea{
+    width: 100%;
+    padding: 15px;
+    border: 3px solid #ccc;
+}
+
+
+
